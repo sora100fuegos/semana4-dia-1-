@@ -43,5 +43,64 @@ public class funcionp {
 	  
 	  
 	  System.out.println(文字列);
-}
+	  
+	  //arrays//////////////////////////////////////////
+	  
+	  String []  meses={"jan","feb","mar","abr","may","jun","jul","ago","sept","oct","nov","dic"};
+	  
+	  String []  days ={"mon","tues","wed","thu","fri","sat","sun"};
+	  
+	  System.out.println(meses[0]+  "       "+  meses[6]+"      "+ meses[10]);
+	  
+	  System.out.println(days[0]+  "       "   +  days[4]+  "      " + days[1]);
+	  
+	  for(int x1=0;x1<=meses.length;x1++)
+		  
+	  {
+		  if(x1==0||x1==6||x1==10)
+		  {
+			  
+			  System.out.println("los meses   son "+meses[x1]);
+		  }
+	  }  
+		  
+		  
+  for(int x1=0;x1<=days.length;x1++)
+		  
+	  {
+		  if(x1==0||x1==4||x1==1)
+		  {
+			  
+			  System.out.println("los dias  son    "+days[x1]);
+		  }
+		  
+		  
+	  }
+  
+	
+	
+	// estructuras de  control/////////////////
+	
+	boolean x4 =  true;
+	
+	boolean az =  false;
+	
+	
+	System.out.println("\n\n");
+	
+	
+	System.out.println(x4 != az);
+	
+	if(x4==az)
+	{
+		
+		
+	}
+	
+	System.out.println("\n\n");
+	
+	
+	  
+	}
+
 }
