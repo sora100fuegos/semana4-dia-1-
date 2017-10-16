@@ -25,6 +25,23 @@ public class funcionp {
 		System.out.println("chicharronera"+x2);
 		
 		
-	}
-
+		float numeri;
+		int espacio=3;
+		String  文字列 ="parangotirinicuaro";
+		String cadena="ABACDEFGHIJKLMNOPQRSTSUVWXYZ";
+		System.out.println("//////cadenas////////");
+		System.out.println(文字列);	
+	
+	  for(int x1=0;x1<文字列.length();x1++)
+	  {
+		  System.out.println(文字列.charAt(0));
+		  
+		  文字列.replace(文字列.charAt(0), 文字列.charAt(x+espacio));
+		  
+		 System.out.println(cadena.substring(3, 6));
+	  }
+	  
+	  
+	  System.out.println(文字列);
+}
 }
