@@ -1,5 +1,7 @@
 package semana4;
 
+import java.util.Scanner;
+
 public class funcionp {
 
 	public static void main(String[] args) {
@@ -91,6 +93,12 @@ public class funcionp {
 	
 	System.out.println(x4 != az);
 	
+	System.out.println(x4 || az);
+	
+	System.out.println(x4 && az);
+	
+	
+	
 	if(x4==az)
 	{
 		
@@ -100,7 +108,80 @@ public class funcionp {
 	System.out.println("\n\n");
 	
 	
+	if(x4==az)
+	{
+		System.out.println("chana");
+		
+	
+		
+		
+	}
+	
+	
+	else if(x4==az)
+	{
+		System.out.println("juana");
+		
+	
+		
+		
+	}
+	
+	
+	else if(x4==az)
+	{
+		System.out.println("melon");
+		
+	
+		
+		
+	}
+	
+	else if(!x4==!az)
+	{
+		System.out.println("juana");
+		
+	
+		
+		
+	}
 	  
+	///switch //////////
+	
+	
+	String opcion = "chana";
+	
+	Scanner lector = new Scanner(System.in);//  permite a  lectura del  teclado 
+	opcion =lector.nextLine();
+	
+	
+	
+	
+	switch (opcion)
+	
+	{
+	
+	case "chana":
+	System.out.println("chana");
+	break;
+	
+	
+	case "juana":
+		System.out.println("juana");
+		break;
+		
+	case "chona":
+		System.out.println("chona");
+		break;
+		
+		
+		default:
+			System.out.println("ninguno");
+			break;
+			
+		
 	}
 
+}
+	
 }
