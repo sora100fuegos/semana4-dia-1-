@@ -2,6 +2,8 @@ package semana4;
 
 import java.util.Scanner;
 
+import com.salon4llora.Sacapuntas;
+
 public class funcionp {
 
 	public static void main(String[] args) {
@@ -156,7 +158,7 @@ public class funcionp {
 	
 	
 	
-	
+	/*
 	switch (opcion)
 	
 	{
@@ -181,7 +183,56 @@ public class funcionp {
 			
 		
 	}
-
-}
+	*/
 	
+	///metodod equals 
+	
+	if(opcion.equals("hola"))
+	{
+		System.out.println("aprobaste");
+	}
+	
+	else
+	{
+		System.out.println("reprobaste");
+	}
+	
+
+int contador=0;
+while(contador<meses.length)
+	
+{
+	
+	System.out.println(contador+1);
+}
+
+
+
+
+Estudiante estudiHambre = new Estudiante(2, "Juancho");
+//Obtener los datos de forma segura
+System.out.println(estudiHambre.getCodigo()+" : "+estudiHambre.getNombre());
+//Cambiar los valores
+estudiHambre.setCodigo(4);
+estudiHambre.setNombre("Gloria");
+//Obtener los datos de forma segura
+System.out.println("\n"+estudiHambre.getCodigo()+" : "+estudiHambre.getNombre());
+
+//Llamar al mpetodo sin modificador de acceso
+estudiHambre.probar();
+
+Sacapuntas sacaPuntas = new Sacapuntas(456, "filo");
+
+int id2;
+//id2++;
+//System.out.println("\n ID del deorden"+id2);
+
+
+
+
+
+	}
+
+
+
 }
