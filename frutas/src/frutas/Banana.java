@@ -1,6 +1,6 @@
 package frutas;
 
-public class Banana  extends Frutas {
+public class Banana extends Frutas  {
 	
 	
 	public Banana()

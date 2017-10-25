@@ -30,6 +30,12 @@ public   int   getSemillas()
 		return semillas;
 	}
 
+@Override
+void descomponer() {
+	// TODO Auto-generated method stub
+	
+}
+
 }	
 
 

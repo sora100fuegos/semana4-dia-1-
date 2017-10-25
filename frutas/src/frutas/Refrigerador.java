@@ -1,10 +1,12 @@
 package frutas;
 
-public class Refrigerador {
+public class Refrigerador implements Clavija {
 	
 	private int  temperatura ;
 	
 	private Cajafrutas cajaFruta;
+	
+	int voltaje;
 	
 	public void setCajaFruta(Cajafrutas caja)
 	
@@ -81,6 +83,12 @@ public  void  mostrar()
 	{
 		
 		return temperatura;
+	}
+
+	@Override
+	public void conectarse() {
+		// TODO Auto-generated method stub
+		
 	}
 	
 	
